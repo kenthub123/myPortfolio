@@ -4,7 +4,7 @@ const projects = [
     name: "FaceDet",
     desc: "Real-time facial expression detector using MediaPipe Face Mesh.",
     url: "https://kenthub123.github.io/dogface/",
-    tags: ["HTML", "CSS", "JavaScript", "MediaPipe"]
+    tags: ["html", "js"]
   }
 ];
 
