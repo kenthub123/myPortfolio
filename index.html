@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kent G. Medina — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+
+ 
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">KGM<span>.</span></div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certs</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-tag">Available for opportunities</div>
+  <h1>Kent G.<em>Medina</em></h1>
+  <p class="hero-sub">IT student at <strong>La Salle University Ozamis</strong> — building web apps and solving problems with code.</p>
+  <div class="btns">
+    <a href="#projects" class="btn btn-y">View my work ↓</a>
+    <a href="#contact" class="btn btn-o">Get in touch</a>
+  </div>
+</div>
+
+<div class="stats">
+  <div><div class="stat-n" id="proj-count">0</div><div class="stat-l">Projects built</div></div>
+  <div><div class="stat-n">8</div><div class="stat-l">Certificates</div></div>
+  <div><div class="stat-n">LSU</div><div class="stat-l">La Salle University Ozamis</div></div>
+</div>
+
+<section id="about">
+  <div class="slabel">About me</div>
+  <h2 class="stitle">Who I am</h2>
+  <div class="about-grid">
+<div class="profile-wrapper">
+  <img
+    src="assets/Profile_Pic.png"
+    alt="Kent G. Medina"
+    class="profile-pic"
+  />
+</div>
+    <div class="about-right"> 
+      <div class="atext">
+        <p>I'm <strong>Kent G. Medina</strong>, an IT student from <strong>La Salle University Ozamis</strong>. I'm passionate about building web applications and learning new technologies.</p>
+      </div>
+      <div>
+        <div class="slabel" style="margin-bottom:.6rem">Tech stack</div>
+        <div class="tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          <span class="tag">React</span><span class="tag">Python</span><span class="tag">PHP</span>
+          <span class="tag">MySQL</span><span class="tag">Git</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="slabel">Work</div>
+  <h2 class="stitle">Projects</h2>
+  <div class="fbar">
+    <button class="fbtn on" data-f="all">All</button>
+    <button class="fbtn" data-f="html">HTML/CSS</button>
+    <button class="fbtn" data-f="js">JavaScript</button>
+    <button class="fbtn" data-f="react">React</button>
+    <button class="fbtn" data-f="python">Python</button>
+    <button class="fbtn" data-f="php">PHP</button>
+  </div>
+  <div class="pgrid" id="pgrid"></div>
+</section>
+
+<section id="certificates">
+  <div class="slabel">Credentials</div>
+  <h2 class="stitle">E-Certificates</h2>
+  <div class="cgrid" id="cgrid"></div>
+</section>
+
+<section id="contact">
+  <div class="slabel">Contact</div>
+  <h2 class="stitle">Let's talk</h2>
+  <div class="cbox">
+    <p style="color:#555;font-size:.93rem">Got a project, opportunity, or just want to connect?</p>
+    <a href="mailto:kentmedina88@gmail.com" class="cemail">kentmedina88@gmail.com</a>
+    <div class="clinks">
+      <a href="https://github.com/kenthub123" target="_blank" class="clink">GitHub</a>
+      <a href="https://www.linkedin.com/in/kent-medina-0978a140b/" target="_blank" class="clink">LinkedIn</a>
+      <a href="https://www.facebook.com/kent.gella.9" target="_blank" class="clink">Facebook</a>
+    </div>
+  </div>
+</section>
+
+<footer>Built by Kent G. Medina &mdash; La Salle University Ozamis &copy; 2026</footer>
+
+<div class="lb" id="lb">
+  <div class="lb-box">
+    <button class="lb-x" id="lb-x">&#x2715;</button>
+    <iframe class="lb-frame" id="lb-frame" src=""></iframe>
+    <div class="lb-footer">
+      <span id="lb-title" style="color:#666"></span>
+      <a id="lb-dl" class="lb-dl" href="#">Download PDF</a>
+    </div>
+  </div>
+</div>
+
+<script src = "script.js"></script>
+</body>
+</html>
