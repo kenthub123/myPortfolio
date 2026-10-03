@@ -6,6 +6,13 @@ const projects = [
     url: "https://kenthub123.github.io/dogface/",
     tags: ["html", "js"]
   }
+  {
+    icon: "♟️",
+    name: "Chess Elo Predictor",
+    desc: "Predicts chess player ratings based on game history and performance metrics.",
+    url: "https://chesselo-rho.vercel.app/",
+    tags: ["python", "html", "js"]
+  }
 ];
 
 const certs = [
