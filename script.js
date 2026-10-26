@@ -13,6 +13,13 @@ const projects = [
     url: "https://chesselo-rho.vercel.app/",
     tags: ["python", "html", "js"]
   }
+  {
+    icon: "🖨️",
+    name: "Marcomedia POS and Inventory System",
+    desc: "A web-based point-of-sale and inventory management system for Marcomedia.",
+    url: "https://www.marcomedia.shop/login",
+    tags: ["php", "html", "js"]
+  }
 ];
 
 const certs = [
